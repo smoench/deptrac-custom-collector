@@ -3,15 +3,15 @@ exclude_files: []
 layers:
   - name: Controller
     collectors:
-      - type: Smoench\\Test\\CustomCollector
+      - type: Smoench\Test\CustomCollector
         regex: Smoench\\.*Controller.*
   - name: Repository
     collectors:
-      - type: Smoench\\Test\\CustomCollector
+      - type: Smoench\Test\CustomCollector
         regex: Smoench\\.*Repository.*
   - name: Service
     collectors:
-      - type: Smoench\\Test\\CustomCollector
+      - type: Smoench\Test\CustomCollector
         regex: Smoench\\.*Service.*
 ruleset:
   Controller:
