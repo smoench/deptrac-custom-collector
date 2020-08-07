@@ -1,0 +1,24 @@
+{
+  "name": "smoench/deptrac-custom-collector",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simon Mönch",
+      "email": "simon.moench@sensiolabs.de"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Smoench\\Test\\": "test/deptrac"
+    }
+  }
+}
