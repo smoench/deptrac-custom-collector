@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Smoench\Test;
 
 use LogicException;
-use SensioLabs\Deptrac\AstRunner\AstMap;
-use SensioLabs\Deptrac\AstRunner\AstMap\AstClassReference;
-use SensioLabs\Deptrac\Collector\CollectorInterface;
-use SensioLabs\Deptrac\Collector\Registry;
+use Qossmic\Deptrac\AstRunner\AstMap;
+use Qossmic\Deptrac\AstRunner\AstMap\AstClassReference;
+use Qossmic\Deptrac\Collector\CollectorInterface;
+use Qossmic\Deptrac\Collector\Registry;
 
 class CustomCollector implements CollectorInterface
 {
